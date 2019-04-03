@@ -93,10 +93,10 @@ table tr td:nth-child(16), table tr th:nth-child(16){ /* intervention */
     width: 5% !important;
 }
 table tr:nth-child(even){ /*  */
-    background-color: rgba(194, 194, 194, 0.103)!important; /* */
+    background-color: rgba(194, 194, 194, 0.15)!important; /* */
 }
 table tr:nth-child(odd){ /*  */
-    background-color: rgba(0, 0, 0, 0.103)!important; /* */
+    background-color:  rgba(194, 194, 194, 0.05)!important; /* */
 }
 th div.dataTables_sizing {
     width: auto!important;
@@ -137,4 +137,10 @@ th div.dataTables_sizing {
     color: #245c50 !important;
     font-weight: 600;
     cursor: pointer;
+}
+.dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > table > tbody > tr > td {
+    text-align: center;
+}
+.checkmark {
+    left: 25px;
 }
