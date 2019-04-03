@@ -149,7 +149,7 @@ th div.dataTables_sizing {
     border: 1px solid #cccccc !important;
 }
 .checkmark:after {
-    border: solid #4c5a67;
+    border:  #4c5a67;
 }
 .select2-search input {
     background-color: #f7f7f7 !important;
