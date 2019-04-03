@@ -14,7 +14,7 @@ table {
 .dataTables_scrollHead table.dataTable  tr th, .dataTables_scrollHead table.dataTable  tr td {
     padding:0 !important;   /* */ 
     margin:0 !important;   /* */ 
-    color: #A1A3AE !important;
+    color: rgb(141, 141, 141) !important;
     font-weight: normal!important;
     font-size: 0.8rem !important;
     box-sizing: border-box!important;
@@ -105,6 +105,6 @@ th div.dataTables_sizing {
 }
 .select2-container--default .select2-selection--single, .select2-container--default .select2-selection--single {
     border: 0px none #4c5a67 !important;
-    height: 38px !important;
+    height: 26px !important;
     margin: 0.2rem;
 }
