@@ -93,7 +93,7 @@ table tr td:nth-child(16), table tr th:nth-child(16){ /* intervention */
     width: 5% !important;
 }
 table tr:nth-child(even){ /*  */
-    background-color: rgba(194, 194, 194, 0.15)!important; /* */
+    background-color: rgba(228, 228, 228, 0.15)!important; /* */
 }
 table tr:nth-child(odd){ /*  */
     background-color:  white!important; /* */
@@ -142,5 +142,11 @@ th div.dataTables_sizing {
     text-align: center;
 }
 .checkmark {
+    top: -5px;
     left: 25px;
+    background-color: white!important;
+}
+.select2-search input {
+    background-color: #F1F1F3 !important;
+    border: 1px solid #cccccc !important;
 }
