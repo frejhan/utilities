@@ -98,3 +98,8 @@ th div.dataTables_sizing {
 .table .thead-light th {
 
 }
+.select2-container .select2-selection--single {
+    border: 0px none #4c5a67 !important;
+    height: 38px !important;
+    background-color: #414d59 !important;
+}
