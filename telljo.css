@@ -110,3 +110,10 @@ th div.dataTables_sizing {
     height: 26px !important;
     margin: 0.2rem;
 }
+
+.select2-dropdown--below ul li {
+    color:#4c5a67 !important;
+}
+.select2-dropdown {
+
+}
