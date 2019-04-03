@@ -105,10 +105,11 @@ th div.dataTables_sizing {
     padding: 0.5rem;
     background-color: white;
 }
-.select2-container--default .select2-selection--single, .select2-container--default .select2-selection--single {
-    border: 0px none #4c5a67 !important;
-    height: 26px !important;
+.select2-container--default .select2-selection--single {
+    border: 1px solid #cccccc !important;
+    height: 31px !important;
     margin: 0.2rem;
+    border-radius: 0px;
 }
 
 .select2-dropdown--below ul li {
@@ -117,7 +118,11 @@ th div.dataTables_sizing {
 .select2-dropdown {
     border: 1px solid #ccc!important;
 }
-a, .hyperlink {
+a, .hyperlink, .clickable {
     color: #83cdbd !important;
+    font-weight: 600;
+}
+.clickable:hover {
+    color: #245c50 !important;
     font-weight: 600;
 }
