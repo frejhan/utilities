@@ -117,3 +117,7 @@ th div.dataTables_sizing {
 .select2-dropdown {
     border: 1px solid #ccc!important;
 }
+a, .hyperlink {
+    color: #83cdbd !important;
+    font-weight: 600;
+}
