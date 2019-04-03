@@ -27,6 +27,7 @@ table {
 table  tr th .sorting{
     color: blue!important;
 }
+
 table tr td:nth-child(1), table tr th:nth-child(1){ /* Date Time */
     /* background-color: aqua!important; */
     width: 10% !important;
@@ -100,11 +101,15 @@ table tr:nth-child(odd){ /*  */
 th div.dataTables_sizing {
     width: auto!important;
 }
-.SelectSearchable .vulerableFlag {
-    color:tomato;
+.vulerableFlag {
+    color:#ff0000;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
 }
-.table .thead-light th {
-
+.table .dataTable .no-footer td{
+    text-align: center;
 }
 .dataTables_wrapper .dataTables_scroll {
     clear: both;
