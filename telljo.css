@@ -12,7 +12,7 @@ table {
     margin-top:2rem;
 }
 .dataTables_scrollHead table.dataTable  tr th, .dataTables_scrollHead table.dataTable  tr td {
-    padding:0 !important;   /* */ 
+    /* padding:0 !important;   */ 
     margin:0 !important;   /* */ 
     color: rgb(141, 141, 141) !important;
     font-weight: normal!important;
@@ -21,6 +21,7 @@ table {
     word-wrap: break-word;    
     background-color: #F1F1F3 !important;
     text-transform: uppercase !important;
+    vertical-align: middle;
 }
 table  tr th .sorting{
     color: blue!important;
