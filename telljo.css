@@ -144,9 +144,10 @@ th div.dataTables_sizing {
 .checkmark {
     top: -5px;
     left: 25px;
-    background-color: white!important;
+    background-color: #f7f7f7!important;
+    border: 1px solid #cccccc !important;
 }
 .select2-search input {
-    background-color: #F1F1F3 !important;
+    background-color: #f7f7f7 !important;
     border: 1px solid #cccccc !important;
 }
