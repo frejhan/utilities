@@ -91,6 +91,12 @@ table tr td:nth-child(16), table tr th:nth-child(16){ /* intervention */
     /* background-color: rgb(218, 255, 7)!important; */
     width: 5% !important;
 }
+table tr:nth-child(even){ /*  */
+    background-color: rgba(194, 194, 194, 0.103)!important; /* */
+}
+table tr:nth-child(odd){ /*  */
+    background-color: rgba(0, 0, 0, 0.103)!important; /* */
+}
 th div.dataTables_sizing {
     width: auto!important;
 }
@@ -125,4 +131,5 @@ th div.dataTables_sizing {
 .clickable:hover {
     color: #245c50 !important;
     font-weight: 600;
+    cursor: pointer;
 }
