@@ -18,10 +18,11 @@ table {
     font-weight: normal!important;
     font-size: 0.8rem !important;
     box-sizing: border-box!important;
-    word-wrap: break-word;    
+    word-wrap: break-word !important;    
     background-color: #F1F1F3 !important;
     text-transform: uppercase !important;
-    vertical-align: middle;
+    vertical-align: middle !important;
+    background-position: center right !important;
 }
 table  tr th .sorting{
     color: blue!important;
