@@ -22,6 +22,7 @@ table {
     background-position: center right !important;
     height: 3rem;
     text-align: center;
+    border: 0.002em solid #d1e0e0 !important;
 }
 table  tr th .sorting{
     color: blue!important;
@@ -140,6 +141,7 @@ th div.dataTables_sizing {
 .dataTables_wrapper .dataTables_scroll div.dataTables_scrollBody > table > tbody > tr > td {
     text-align: center;
     font-size: smaller;
+    border: 0.002em solid #d1e0e0;
 }
 .checkmark {
     top: -5px;
