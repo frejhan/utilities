@@ -15,7 +15,8 @@ table {
     font-size: 0.7rem !important;
     box-sizing: border-box!important;
     word-wrap: break-word !important;    
-    background-color: #F1F1F3 !important;
+    /* background-color: #F1F1F3 !important; */
+    background-color: #ccffcc!important;
     /* text-transform: uppercase !important; */
     vertical-align: middle !important;
     background-position: center right !important;
@@ -91,7 +92,7 @@ table tr td:nth-child(16), table tr th:nth-child(16){ /* intervention */
     width: 5% !important;
 }
 table tr:nth-child(even){ /*  */
-    background-color: rgba(228, 228, 228, 0.15)!important; /* */
+    background-color: #e6ffe6!important; /* */
 }
 table tr:nth-child(odd){ /*  */
     background-color:  white!important; /* */
