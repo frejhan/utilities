@@ -16,11 +16,11 @@ table {
     margin:0 !important;   /* */ 
     color: #5a5a5a !important;
     font-weight: normal!important;
-    font-size: 0.8rem !important;
+    font-size: 0.7rem !important;
     box-sizing: border-box!important;
     word-wrap: break-word !important;    
     background-color: #F1F1F3 !important;
-    text-transform: uppercase !important;
+    /* text-transform: uppercase !important; */
     vertical-align: middle !important;
     background-position: center right !important;
     height: 3rem;
